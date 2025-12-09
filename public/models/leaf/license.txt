@@ -1,0 +1,11 @@
+Model Information:
+* title:	big banana leaf
+* source:	https://sketchfab.com/3d-models/big-banana-leaf-e11d64ec73da4ff9a7e14c9e6d007633
+* author:	sv1nks (https://sketchfab.com/sv1nks)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "big banana leaf" (https://sketchfab.com/3d-models/big-banana-leaf-e11d64ec73da4ff9a7e14c9e6d007633) by sv1nks (https://sketchfab.com/sv1nks) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

@@ -1,0 +1,28 @@
+stages:
+  - build
+  - deploy
+
+build:
+  stage: build
+  tags:
+    - seniwave
+  script:
+    - cd /var/www/sber-ar-quest
+    - git pull
+    - docker build -t sber-ar-quest:latest .
+  only:
+    - main
+    - master
+
+deploy:
+  stage: deploy
+  tags:
+    - seniwave
+  script:
+    - docker stop sber-ar-quest || true
+    - docker rm sber-ar-quest || true
+    - docker run -d --restart unless-stopped -p 8110:3000 --name sber-ar-quest sber-ar-quest:latest
+  only:
+    - main
+    - master
+

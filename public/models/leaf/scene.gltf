@@ -1,0 +1,316 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 12445,
+      "max": [
+        0.04262598976492882,
+        0.2983320951461792,
+        0.22973434627056122
+      ],
+      "min": [
+        -0.04617217555642128,
+        -0.2670537829399109,
+        -0.229653999209404
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 149340,
+      "componentType": 5126,
+      "count": 12445,
+      "max": [
+        0.9999881982803345,
+        0.9969286322593689,
+        0.9906620979309082
+      ],
+      "min": [
+        -0.9999950528144836,
+        -0.9988434314727783,
+        -0.9995096921920776
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 12445,
+      "max": [
+        0.9984865784645081,
+        0.9158567190170288,
+        0.9943896532058716,
+        1.0
+      ],
+      "min": [
+        -0.9997939467430115,
+        -0.9464829564094543,
+        -0.9945930242538452,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 12445,
+      "max": [
+        0.9791543483734131,
+        0.999668300151825
+      ],
+      "min": [
+        0.0003316038637422025,
+        0.00033157962025143206
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 99560,
+      "componentType": 5126,
+      "count": 12445,
+      "max": [
+        0.9791543483734131,
+        0.999668300151825
+      ],
+      "min": [
+        0.0003316038637422025,
+        0.00033157962025143206
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 199120,
+      "componentType": 5126,
+      "count": 12445,
+      "max": [
+        0.9791543483734131,
+        0.999668300151825
+      ],
+      "min": [
+        0.0003316038637422025,
+        0.00033157962025143206
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 70692,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "sv1nks (https://sketchfab.com/sv1nks)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/big-banana-leaf-e11d64ec73da4ff9a7e14c9e6d007633",
+      "title": "big banana leaf"
+    },
+    "generator": "Sketchfab-16.8.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 282768,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 298680,
+      "byteOffset": 282768,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 298680,
+      "byteOffset": 581448,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 199120,
+      "byteOffset": 880128,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 1079248,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/base_material_baseColor.jpeg"
+    },
+    {
+      "uri": "textures/base_material_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/base_material_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "base_material",
+      "normalTexture": {
+        "index": 2
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "mesh_base_material_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4,
+            "TEXCOORD_2": 5
+          },
+          "indices": 6,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        2.220446049250313e-16,
+        -1.0,
+        2.7755575615628914e-17,
+        0.0,
+        3.82856880455694e-16,
+        2.7755575615628914e-17,
+        1.0,
+        0.0,
+        -1.0,
+        -2.220446049250314e-16,
+        3.8285688045569397e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.009999999776482582,
+        0.0,
+        0.0,
+        -0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "a35ea1d11f58_big_banana_leaf__3d.fbx"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        176.15325927734375,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        176.15325927734358,
+        7.699904140068487e-06,
+        0.0,
+        0.0,
+        -7.699904140068487e-06,
+        176.15325927734358,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "mesh"
+    },
+    {
+      "mesh": 0,
+      "name": "mesh_base_material_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}

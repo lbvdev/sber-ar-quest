@@ -1,0 +1,8 @@
+Model Information:
+* title:	animated_bee_flying_landing_loop
+* source:	https://sketchfab.com/3d-models/animated-bee-flying-landing-loop-f83f192ecbab431892d1ca0242013639
+* author:	Tiến Sỹ (https://sketchfab.com/tiensy)
+
+Model License:
+* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
+* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works

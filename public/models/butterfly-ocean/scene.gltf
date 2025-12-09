@@ -1,0 +1,399 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "Open Asset Import Library (assimp v5.4.0)"
+    },
+    "extensionsUsed": [
+        "KHR_materials_volume",
+        "FB_ngon_encoding"
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 7636,
+            "type": "VEC3",
+            "max": [
+                0.5021001100540161,
+                0.4611007869243622,
+                0.7121974229812622
+            ],
+            "min": [
+                -0.2764114439487457,
+                0.0008041262626647949,
+                -0.7185222506523132
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 7636,
+            "type": "VEC3",
+            "max": [
+                0.9996107220649719,
+                0.99997878074646,
+                0.9993731379508972
+            ],
+            "min": [
+                -0.9995006322860718,
+                -0.9988394975662231,
+                -0.9993731379508972
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 7636,
+            "type": "VEC2",
+            "max": [
+                0.9985260963439941,
+                0.998506486415863
+            ],
+            "min": [
+                0.0014977395767346025,
+                0.06436628103256226
+            ]
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 41988,
+            "type": "SCALAR",
+            "max": [
+                7635
+            ],
+            "min": [
+                0
+            ]
+        },
+        {
+            "bufferView": 4,
+            "byteOffset": 0,
+            "componentType": 5123,
+            "count": 7636,
+            "type": "VEC4",
+            "max": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "min": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "bufferView": 5,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 7636,
+            "type": "VEC4",
+            "max": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "min": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "bufferView": 6,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 3,
+            "type": "MAT4",
+            "max": [
+                0.258819043636322,
+                8.195637946073475e-8,
+                0.9659257531166077,
+                0.0,
+                0.9546937942504883,
+                0.25881898403167725,
+                0.9659258127212524,
+                0.0,
+                -0.14687591791152954,
+                0.9883716106414795,
+                0.0393553301692009,
+                0.0,
+                0.17794997990131378,
+                0.14646293222904205,
+                -0.010092073120176792,
+                1.0
+            ],
+            "min": [
+                -0.25881898403167725,
+                -0.9659257531166077,
+                0.25881898403167725,
+                0.0,
+                -0.9546937346458435,
+                0.1520569920539856,
+                -0.25580936670303345,
+                0.0,
+                -1.0,
+                -0.9883715510368347,
+                -0.03935519605875015,
+                0.0,
+                -0.17794999480247498,
+                -0.02604220248758793,
+                -0.17987364530563354,
+                1.0
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 656848,
+            "uri": "Ocean_0.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 91632,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 91632,
+            "byteLength": 91632,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 183264,
+            "byteLength": 61088,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 244352,
+            "byteLength": 167952,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 412304,
+            "byteLength": 61088
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 534480,
+            "byteLength": 122176
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 656656,
+            "byteLength": 192
+        }
+    ],
+    "images": [
+        {
+            "uri": "textures/image_1.png"
+        },
+        {
+            "uri": "textures/image_0.png"
+        },
+        {
+            "uri": "textures/image_2.png"
+        }
+    ],
+    "materials": [
+        {
+            "name": "Material.007",
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicRoughnessTexture": {
+                    "index": 1
+                },
+                "metallicFactor": 0.0
+            },
+            "normalTexture": {
+                "index": 2
+            },
+            "doubleSided": true
+        }
+    ],
+    "meshes": [
+        {
+            "name": "meshes[0]",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 0,
+                    "indices": 3,
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2,
+                        "JOINTS_0": 4,
+                        "WEIGHTS_0": 5
+                    }
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "Ocean",
+            "children": [
+                1,
+                5
+            ]
+        },
+        {
+            "name": "Armature",
+            "children": [
+                2
+            ],
+            "extras": {
+                "name": "Armature"
+            }
+        },
+        {
+            "name": "Bone",
+            "matrix": [
+                2.568319246165629e-7,
+                3.575481599682462e-8,
+                -0.9999999403953552,
+                0.0,
+                -0.9659258723258972,
+                0.2588191330432892,
+                -1.6950420445027703e-7,
+                0.0,
+                0.25881901383399963,
+                0.9659257531166077,
+                1.5420242505115311e-7,
+                0.0,
+                0.1880270540714264,
+                0.13583721220493317,
+                9.34910904248909e-9,
+                1.0
+            ],
+            "children": [
+                3,
+                4
+            ],
+            "extras": {
+                "name": "Bone"
+            }
+        },
+        {
+            "name": "Bone001",
+            "matrix": [
+                0.14687594771385193,
+                0.0029070740565657616,
+                -0.9891505837440491,
+                0.0,
+                0.9883717894554138,
+                0.0393553227186203,
+                0.14687593281269073,
+                0.0,
+                0.03935528174042702,
+                -0.9992209076881409,
+                0.0029071082826703787,
+                0.0,
+                8.881784197001252e-16,
+                0.13688631355762482,
+                -1.210719347000122e-8,
+                1.0
+            ],
+            "extras": {
+                "name": "Bone.001"
+            }
+        },
+        {
+            "name": "Bone002",
+            "matrix": [
+                0.14687582850456238,
+                -0.002907192800194025,
+                0.9891507029533386,
+                0.0,
+                -0.9883719086647034,
+                0.03935519978404045,
+                0.14687594771385193,
+                0.0,
+                -0.03935529664158821,
+                -0.99922114610672,
+                0.0029068710282444954,
+                0.0,
+                8.881784197001252e-16,
+                0.13688631355762482,
+                -1.210719347000122e-8,
+                1.0
+            ],
+            "extras": {
+                "name": "Bone.002"
+            }
+        },
+        {
+            "name": "Cube007",
+            "mesh": 0,
+            "skin": 0,
+            "extras": {
+                "name": "Cube.007"
+            }
+        }
+    ],
+    "samplers": [
+        {
+            "magFilter": 9729,
+            "minFilter": 9987
+        },
+        {
+            "magFilter": 9729,
+            "minFilter": 9987
+        },
+        {
+            "magFilter": 9729,
+            "minFilter": 9987
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "skins": [
+        {
+            "name": "skin",
+            "joints": [
+                2,
+                3,
+                4
+            ],
+            "inverseBindMatrices": 6
+        }
+    ],
+    "textures": [
+        {
+            "source": 0,
+            "sampler": 0
+        },
+        {
+            "source": 1,
+            "sampler": 1
+        },
+        {
+            "source": 2,
+            "sampler": 2
+        }
+    ],
+    "scene": 0
+}

@@ -1,0 +1,8 @@
+Model Information:
+* title:	Sunflower
+* source:	https://sketchfab.com/3d-models/sunflower-698cc100e4194c51b62275664fd9b166
+* author:	M Parkinson (https://sketchfab.com/chimaera_studio)
+
+Model License:
+* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
+* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works
