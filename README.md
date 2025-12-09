@@ -1,3 +1,5 @@
+Live версия проекта - [https://seniwave.com/tender/sber/ar-quest](https://seniwave.com/tender/sber/ar-quest)
+
 Тендер от [SeniWave](https://seniwave.com) для Сбера, пример интерактивного AR окружения в браузере.
 Стек: next.js, aframe, mind.js
 
